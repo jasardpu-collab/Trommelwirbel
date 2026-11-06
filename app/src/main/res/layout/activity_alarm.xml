@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/alarmRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D32F2F"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🥁"
+        android:textSize="96sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/alarm_big"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:shadowColor="#000000"
+        android:shadowRadius="8" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/alarm_text"
+        android:textColor="#FFFFFF"
+        android:textSize="26sp"
+        android:shadowColor="#000000"
+        android:shadowRadius="6" />
+
+    <TextView
+        android:id="@+id/alarmSub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:shadowColor="#000000"
+        android:shadowRadius="6" />
+
+    <Button
+        android:id="@+id/photoButton"
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:layout_marginTop="36dp"
+        android:backgroundTint="#000000"
+        android:text="@string/photo_to_stop"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/holdButton"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#FFFFFF"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/holdInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:visibility="gone" />
+</LinearLayout>

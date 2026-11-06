@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Trommelwirbel</string>
+    <string name="settings">Einstellungen</string>
+    <string name="settings_button">⚙️  Einstellungen (Weckton)</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Abbrechen</string>
+
+    <!-- Start -->
+    <string name="main_title">Läuft die Waschmaschine?</string>
+    <string name="main_sub">Foto vom Display, Zeit bestätigen, fertig. Trommelwirbel nervt dich, wenn die Wäsche fertig ist.</string>
+    <string name="photo_start">📸  Waschmaschine läuft\n(mit Foto)</string>
+    <string name="simple_start">⏰  Nur Wecker stellen\n(ohne Foto)</string>
+    <string name="privacy">🔒 Datenschutz: Texterkennung und Bildprüfung laufen komplett offline auf deinem Handy. Kein Foto verlässt das Gerät, kein Foto wird gespeichert. Wer gar keine Kamera möchte, nimmt einfach „Nur Wecker stellen“.</string>
+    <string name="running_title">Wäsche läuft …</string>
+    <string name="running_info">Trommelwirbel um %1$s · %2$s</string>
+    <string name="running_backup">Sicherheits-Wecker in der Uhr-App: %1$s</string>
+    <string name="mode_photo">Ausschalten nur mit Foto</string>
+    <string name="mode_simple">Nur-Wecker-Modus</string>
+    <string name="to_alarm">Zum Alarm</string>
+    <string name="cancel_alarm">Alarm abbrechen</string>
+    <string name="cancel_title">Wirklich abbrechen?</string>
+    <string name="cancel_message">Dann erinnert dich niemand an die Wäsche. Den Sicherheits-Wecker in der Uhr-App musst du selbst löschen.</string>
+    <string name="cancel_yes">Ja, abbrechen</string>
+    <string name="cancel_no">Nein, weiterlaufen</string>
+
+    <!-- Einrichtung -->
+    <string name="setup_title">⚠️ Kurz einrichten, damit der Alarm sicher klingelt</string>
+    <string name="setup_warn">Bitte tippe erst oben auf die gelben Punkte und erlaube alles. Sonst kann Android den Alarm verschlucken.</string>
+    <string name="setup_notifications">Benachrichtigungen erlauben</string>
+    <string name="setup_exact">Pünktliche Wecker erlauben</string>
+    <string name="setup_fullscreen">Vollbild-Alarm erlauben</string>
+    <string name="setup_battery">Akku-Optimierung ausschalten (empfohlen)</string>
+
+    <!-- Kamera -->
+    <string name="hint_start">Display ins Rechteck, Bullauge in den Kreis – dann auslösen.</string>
+    <string name="hint_dismiss">Fotografier deine Waschmaschine, so wie beim Start: Display ins Rechteck, Bullauge in den Kreis.</string>
+    <string name="overlay_display">Display mit Restzeit</string>
+    <string name="overlay_door">Bullauge</string>
+    <string name="shutter">Foto</string>
+    <string name="manual">Zeit selbst eingeben</string>
+    <string name="camera_needed">Ohne Kamera geht nur der Nur-Wecker-Modus.</string>
+    <string name="camera_error">Die Kamera hat gerade nicht geklappt. Nochmal versuchen?</string>
+    <string name="dismiss_failed">Hmm, das sieht nicht nach deiner Waschmaschine aus. Bullauge in den Kreis und nochmal!</string>
+
+    <!-- Zeit -->
+    <string name="time_title">Wie lange noch?</string>
+    <string name="time_found">Das habe ich auf dem Display gelesen. Stimmt\'s? Sonst einfach drehen.</string>
+    <string name="time_not_found">Ich konnte die Zeit nicht lesen. Stell sie bitte kurz selbst ein.</string>
+    <string name="time_manual">Stell die Restzeit ein.</string>
+    <string name="time_too_short">Mindestens 1 Minute, bitte.</string>
+    <string name="hours">Std.</string>
+    <string name="minutes">Min.</string>
+    <string name="start_alarm">Los geht\'s</string>
+
+    <!-- Alarm -->
+    <string name="channel_alarm">Wäsche-Alarm</string>
+    <string name="alarm_title">🥁 Die Wäsche ist fertig!</string>
+    <string name="alarm_notification_text">Tippen, um den Alarm zu öffnen.</string>
+    <string name="alarm_big">TROMMELWIRBEL!</string>
+    <string name="alarm_text">Die Wäsche ist fertig!</string>
+    <string name="alarm_sub_photo">Ausschalten geht nur mit einem Foto von der Waschmaschine. Also: hingehen!</string>
+    <string name="alarm_sub_simple">Halte den Knopf 3 Sekunden gedrückt, um den Alarm auszuschalten.</string>
+    <string name="photo_to_stop">📸  Waschmaschine fotografieren</string>
+    <string name="hold_to_stop">Gedrückt halten zum Ausschalten</string>
+    <string name="hold_info_simple">3 Sekunden gedrückt halten</string>
+    <string name="hold_countdown">Noch %1$d …</string>
+    <string name="escape_button">Notausgang</string>
+    <string name="escape_info">Foto klappt nicht? 15 Sekunden gedrückt halten.</string>
+    <string name="done_title">Super, Alarm aus! 🎉</string>
+    <string name="backup_still_set">Der Sicherheits-Wecker um %1$s in deiner Uhr-App ist noch gestellt.</string>
+    <string name="backup_dismiss">In der Uhr ausschalten</string>
+    <string name="backup_label">Trommelwirbel: Wäsche!</string>
+
+    <!-- Einstellungen -->
+    <string name="tone_title">Weckton</string>
+    <string name="tone_info">Stumm gibt es nicht. Der Ton läuft immer über den Wecker-Kanal mit voller Lautstärke, auch wenn das Handy auf lautlos steht.</string>
+    <string name="pick_tone">Weckton auswählen</string>
+    <string name="tone_default">Standard-Weckton</string>
+    <string name="backup_title">Sicherheits-Wecker</string>
+    <string name="backup_info">Stellt zusätzlich einen normalen Wecker in deiner Uhr-App – falls doch mal etwas schiefgeht.</string>
+    <string name="backup_switch">Sicherheits-Wecker stellen</string>
+    <string name="offset_0">Gleichzeitig</string>
+    <string name="offset_5">5 Min. später</string>
+    <string name="offset_10">10 Min. später</string>
+</resources>

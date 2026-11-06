@@ -1,0 +1,41 @@
+name: App bauen
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 17
+
+      - uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: "8.9"
+
+      - name: APK bauen
+        run: gradle :app:assembleRelease --no-daemon --stacktrace
+
+      - name: APK umbenennen
+        run: cp app/build/outputs/apk/release/app-release.apk Trommelwirbel.apk
+
+      - name: Release veröffentlichen
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v1.0.${{ github.run_number }}
+          name: Trommelwirbel 1.0.${{ github.run_number }}
+          body: |
+            📥 **Zum Installieren auf dem Android-Handy:** unten auf **Trommelwirbel.apk** tippen, herunterladen, öffnen.
+            Beim ersten Mal fragt Android, ob der Browser Apps installieren darf – einmal erlauben.
+          files: Trommelwirbel.apk
+          make_latest: true
